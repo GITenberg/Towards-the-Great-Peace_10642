@@ -1,0 +1,33 @@
+_repo: Towards-the-Great-Peace_10642
+_version: 0.0.1
+creator:
+  author:
+    agent_name: Cram, Ralph Adams
+    alias: Cram, R. A. (Ralph Adams)
+    birthdate: 1863
+    deathdate: 1942
+    gutenberg_agent_id: '3618'
+    url: http://www.gutenberg.org/2009/agents/3618
+    wikipedia: http://en.wikipedia.org/wiki/Ralph_Adams_Cram
+description: ''
+gutenberg_bookshelf: World War I
+gutenberg_issued: '2004-01-01'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '10642'
+language: en
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcsh 'Sociology'
+- !lcsh 'Civilization'
+- !lcc 'HM'
+- !lcsh 'Social problems'
+- GITenberg
+tableOfContents: Introduction -- A world at the crossroads -- A working philosophy
+  -- The social organism -- The industrial problem -- The political organization of
+  society -- The function of education and art -- The problem of organic religion
+  -- Personal responsibility.
+title: Towards the Great Peace
+url: http://www.gutenberg.org/ebooks/10642
