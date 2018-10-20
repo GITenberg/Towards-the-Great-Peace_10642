@@ -1,127 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:cc="http://web.resource.org/cc/"
-  xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:dcam="http://purl.org/dc/dcam/"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:cc="http://web.resource.org/cc/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
   <pgterms:ebook rdf:about="ebooks/10642">
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N724ccd9980c8442d979e75b37cea09b3">
-        <rdf:value>Sociology</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
-    <dcterms:license rdf:resource="license"/>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/10642.txt.utf-8">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-06T01:10:19.375747</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/10642"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">439660</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N3c6977b3c9d7472e8dc8f077cecc5e66">
+          <rdf:Description rdf:nodeID="N0d9c1e34bb9940edb8fce1adcc2ae73e">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">439658</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-15T08:29:42.422617</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/10642"/>
       </pgterms:file>
     </dcterms:hasFormat>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</pgterms:downloads>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N0493770450b5481aafcf1c8e6aad0f6c">
-        <rdf:value>Social problems</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-      </rdf:Description>
-    </dcterms:subject>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/10642.html.gen">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/10642.kindle.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">724454</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/10642"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">446518</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-15T08:29:41.552506</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ne649857ee8c547498d415bae8d54149f">
+          <rdf:Description rdf:nodeID="Nd682d4f1fab64e67807cd94059377724">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-06T01:10:22.879666</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-01-01</dcterms:issued>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/10642/10642.txt">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">439673</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-01-08T16:34:54</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/10642"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">439673</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nbdb13bd1834d41e0866502a4bd7bbbf4">
+          <rdf:Description rdf:nodeID="N234f3ae30d334bea90fd71d0623e43a5">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:title>Towards the Great Peace</dcterms:title>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/10642.kindle.noimages">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">276516</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/10642"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N82248de466544bfcabbce696b5cf91d9">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-15T08:29:44.901144</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/10642/10642-8.txt">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Na31d94a6d037478a81cd636b67d5a9bf">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-01-08T16:34:54</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/10642"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">439671</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/10642.epub.noimages">
         <dcterms:isFormatOf rdf:resource="ebooks/10642"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">184267</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-15T08:29:43.354698</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-06T01:10:20.093723</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N58df0fea875f4b739d55502e1715ba87">
+          <rdf:Description rdf:nodeID="N353c08932dfa4c89a0255c0ed5801363">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">176754</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:type>
-      <rdf:Description rdf:nodeID="Nc2051915a9b94af8bf1b93f2d1456b00">
-        <rdf:value>Text</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nc64ea2e05e5145f5a1c68fc1fa293eef">
+        <rdf:value>Social problems</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
       </rdf:Description>
-    </dcterms:type>
+    </dcterms:subject>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/10642/10642.zip">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-01-08T16:34:54</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/10642.html.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">453541</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-06T01:10:19.722734</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/10642"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ncdec134acf8743b3acdfe967d156e469">
+          <rdf:Description rdf:nodeID="N9a7bec53bb144af98c3c36dcaad7a3a7">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/10642/10642.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N3a0a5c12a9dd4c5984f846ae5f4e3a89">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-01-08T16:34:54</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/10642"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">161759</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nad56997838ea4907919244ba29c7b325">
+          <rdf:Description rdf:nodeID="Na231cd4abe72443b8a3346601059e02b">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
@@ -129,79 +99,145 @@
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="Ncc836de2ef444e5a8c6628eacb812673">
+      <rdf:Description rdf:nodeID="N438af792bc804d46961c41b66f7fce4b">
+        <rdf:value>Sociology</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/10642.kindle.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">724464</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-06T01:10:21.486684</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/10642"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na1bddb583d7e4e479f92cd8faaa23b88">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N37281671f1bb4d91b9baa546f92fd55a">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>HM</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/10642.epub.images">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N904e7a361c43424f8a87b61f016989e5">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/10642"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">176756</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-06T01:10:19.992722</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N513cfb6e86614a22a7282ed62bbebd8f">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/10642/10642-8.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/10642"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">439671</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N0bc03a1b2a7e4f96b5f15a9abc951ec6">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-01-08T16:34:54</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N60948c8bc8d14ba1b29409a44707b514">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
         <rdf:value>Civilization</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:creator>
       <pgterms:agent rdf:about="2009/agents/3618">
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1863</pgterms:birthdate>
-        <pgterms:name>Cram, Ralph Adams</pgterms:name>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Ralph_Adams_Cram"/>
         <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1942</pgterms:deathdate>
+        <pgterms:alias>Cram, R. A. (Ralph Adams)</pgterms:alias>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1863</pgterms:birthdate>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Ralph_Adams_Cram"/>
+        <pgterms:name>Cram, Ralph Adams</pgterms:name>
       </pgterms:agent>
     </dcterms:creator>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="N44cf48ffc9d64998b91b5e2af77609ca">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
-      </rdf:Description>
-    </dcterms:language>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:title>Towards the Great Peace</dcterms:title>
+    <dcterms:tableOfContents>Introduction -- A world at the crossroads -- A working philosophy -- The social organism -- The industrial problem -- The political organization of society -- The function of education and art -- The problem of organic religion -- Personal responsibility.</dcterms:tableOfContents>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/10642.plucker">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">248005</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/10642.html.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-06T01:10:19.810719</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">453541</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/10642"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-18T08:06:09.924876</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N4034af354aa241b08bacc7ed0fd31c1e">
+          <rdf:Description rdf:nodeID="N3607abd9457a44b9954b738651fc3406">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:tableOfContents>Introduction -- A world at the crossroads -- A working philosophy -- The social organism -- The industrial problem -- The political organization of society -- The function of education and art -- The problem of organic religion -- Personal responsibility.</dcterms:tableOfContents>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-01-01</dcterms:issued>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/10642/10642-8.zip">
-        <dcterms:isFormatOf rdf:resource="ebooks/10642"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">161812</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-01-08T16:34:56</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">161812</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/10642"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N8382d8bd57484f418fa5520f9e0d04f2">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          <rdf:Description rdf:nodeID="N9d5c8d72879d4303a20957b808430a03">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N629e57c0a32445f293c102e9af2b8261">
+          <rdf:Description rdf:nodeID="Nf09c5d896e3044c19f5696fb89ddc47a">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N27ba068825764652bf293d8c17541b90">
-        <rdf:value>HM</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</pgterms:downloads>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="N00d2fadcc0b24171bd7b8363fc7c98ae">
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+        <rdf:value>World War I</rdf:value>
       </rdf:Description>
-    </dcterms:subject>
+    </pgterms:bookshelf>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/10642.qioo">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223691</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/10642.rdf">
         <dcterms:isFormatOf rdf:resource="ebooks/10642"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ne204836dd79d4ec2bf4a7cabf0989cd2">
+          <rdf:Description rdf:nodeID="Nb513f5a898f64058adb09748a90a2de1">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-18T08:06:06.424394</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T05:08:08.702158</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13842</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="Nd37b9315b1404364ba4892413355524c">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
+      </rdf:Description>
+    </dcterms:type>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
   </cc:Work>
   <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Ralph_Adams_Cram">
     <dcterms:description>Wikipedia</dcterms:description>
